@@ -61,37 +61,42 @@ streamlit run app/main.py
 ```
 ### How It Works
 1. Upload a Document
-Supported formats: .pdf, .txt
-Text is extracted using PyMuPDF or native decoding
+
+- Supported formats: .pdf, .txt
+- Text is extracted using PyMuPDF or native decoding
 
 2. Summary Generation
-A pre-trained BART model generates a ≤150-word summary
-Designed for research papers, reports, manuals, and structured content
+
+- A pre-trained BART model generates a ≤150-word summary
+- Designed for research papers, reports, manuals, and structured content
 
 3. Ask Anything Mode
-Users can enter any question about the document
-A Q&A model answers using the document as context
-Each answer is justified with a supporting source snippet
+
+- Users can enter any question about the document
+- A Q&A model answers using the document as context
+- Each answer is justified with a supporting source snippet
 
 4. Challenge Me Mode
-The system generates 3 comprehension or logic-based questions
-Users respond; the assistant evaluates and gives feedback
-Each evaluation is tied back to content from the document
+- The system generates 3 comprehension or logic-based questions
+- Users respond; the assistant evaluates and gives feedback
+- Each evaluation is tied back to content from the document
 
 - Technologies Used
-Python
-Streamlit
-Hugging Face Transformers
-PyMuPDF (fitz)
-uuid (for dynamic inputs)
-Regex and keyword matching (custom evaluation logic)
+1. Python
+2. Streamlit
+3. Hugging Face Transformers
+4. PyMuPDF (fitz)
+5. uuid (for dynamic inputs)
+6. Regex and keyword matching (custom evaluation logic)
 
 - Deployment
-This application runs locally and does not require GPU or API keys.
-Future improvements may include deployment via Hugging Face Spaces, Docker, or Streamlit Cloud for hosted demos.
+  
+1. This application runs locally and does not require GPU or API keys.
+2. Future improvements may include deployment via Hugging Face Spaces, Docker, or Streamlit Cloud for hosted demos.
 
 - Author
 Manvi Taneja
+
 B.Tech (Information Technology), graduating 2026
 Passionate about GenAI, NLP, and building impactful AI tools
 manvitaneja70952@gmail.com
