@@ -97,9 +97,9 @@ streamlit run app/main.py
 - Author
 Manvi Taneja
 
-B.Tech (Information Technology), graduating 2026
-Passionate about GenAI, NLP, and building impactful AI tools
-manvitaneja70952@gmail.com
+B.Tech (Information Technology), graduating 2026, 
+Passionate about GenAI, NLP, and building impactful AI tools,
+e-mail - manvitaneja70952@gmail.com
 
 License
 This project is for educational and demonstration purposes only.
