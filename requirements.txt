@@ -1,0 +1,8 @@
+streamlit
+openai
+PyMuPDF
+langchain
+tiktoken
+pdfplumber
+python-dotenv
+transformers
