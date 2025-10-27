@@ -5,12 +5,6 @@ This project implements a GenAI-powered smart assistant that reads and understan
 This was built as part of a GenAI internship assignment focused on contextual comprehension, logical reasoning, and interactive AI tooling.
 
 ---
-## Demo Video
-
-Here’s a short walkthrough of the Smart Assistant in action.  
-It shows document upload, summarization, contextual Q&A, and challenge mode with justifications.
-
-[Watch Demo on Loom](https://www.loom.com/share/30d0effba7f742b3a4fd720c6ce9b463)
 
 
 ## Features
